@@ -42,6 +42,6 @@ body {
   text-align: center;
   color: hsla(81, 89%, 50%, 0.986);
   text-shadow: rgb(25, 0, 255) 0 0 10px;
-  font-family: cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 2em;
 }
