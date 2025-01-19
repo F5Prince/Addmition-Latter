@@ -44,6 +44,7 @@ body {
   position: absolute;
   top: 50%;
   left: 30%;
+  bottom: 10%;
   transform: translate(-30%, -30%);
   text-align: left;
   color: hsla(240, 100%, 50%, 1);
