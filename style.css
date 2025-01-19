@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background-image: url("https://raw.githubusercontent.com/F5Prince/Mahato-family-chart-static/main/Images/SNM%202.jpg");
+  background-size: 100vh 100vh;
+  background-size: cover;
+  background-position: down;
+  animation: untoldcoding 55s infinite ease-in-out;
+  z-index: -1;
+}
+
+@keyframes untoldcoding {
+  0% {
+    background-image: url("https://raw.githubusercontent.com/F5Prince/Mahato-family-chart-static/main/Images/SNM%202.jpg");
+  }
+  35% {
+    background-image: url("https://raw.githubusercontent.com/F5Prince/Mahato-family-chart-static/main/Images/SNM%201.jpg");
+  }
+  60% {
+    background-image: url("https://raw.githubusercontent.com/F5Prince/Mahato-family-chart-static/main/Images/SNM%201.jpg");
+  }
+  80% {
+    background-image: url("https://raw.githubusercontent.com/F5Prince/Mahato-family-chart-static/main/Images/SNM%201.jpg");
+  }
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: hsla(81, 89%, 50%, 0.986);
+  text-shadow: rgb(25, 0, 255) 0 0 10px;
+  font-family: cursive;
+  font-size: 2em;
+}
