@@ -39,7 +39,7 @@ body {
   top: 50%;
   left: 30%;
   transform: translate(-30%, -30%);
-  text-align: center;
+  text-align: left;
   color: hsla(240, 100%, 50%, 1);
   text-shadow: 0 0 10px hsla(60, 100%, 50%, 1);
   font-family: 'Poppins', sans-serif;
